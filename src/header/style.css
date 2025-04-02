@@ -1,7 +1,9 @@
 .site__header {
     top: 10px;
     padding-left: 10px;
+    z-index: 10000 !important;
     padding-right: 10px;
+    background: var(--primary-color);
 }
 
 .menu__button {
@@ -86,6 +88,7 @@
 }
 
 .site__navigation {
+    z-index: 5000 !important;
     height: 100%;
     left: 0;
     overflow: hidden;
@@ -93,11 +96,11 @@
     top: 0;
     width: 100%;
     visibility: hidden;
+    pointer-events: none;
 }
 
 .menu__opend {
-    visibility: visible !important;
-}
+    pointer-events: auto;}
 
 .main__menu_ul,
 .menu_right {
@@ -133,6 +136,8 @@
 }
 
 .bg__menu {
+        z-index: 4000 !important;  /* Lower than header */
+
     position: absolute;
     left: 0px;
     top: 0px;

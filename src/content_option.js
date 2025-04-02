@@ -12,8 +12,8 @@ const introdata = {
         third: "I explore algorithms.",
     },
     description: "Aspiring PhD in Machine Learning & AI Research, passionate about innovative problem-solving. Exploring advanced algorithms to drive impactful research.",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
-};
+    your_img_url: "https://github.com/Aayush3466/portfolio/blob/gh-pages/aayushprofile.jpg?raw=true",
+}; 
 
 const dataabout = {
     title: "abit about my self",
