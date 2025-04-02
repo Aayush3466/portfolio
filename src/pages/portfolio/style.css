@@ -6,7 +6,11 @@
     -moz-column-gap: 4rem;
     -webkit-column-gap: 4rem;
 }
-
+@media (min-width: 992px) { /* Only for large screens */
+    .port-container {
+        padding-left: 100px; /* Adds space on the left */
+    }
+}
 .po_item {
     display: inline-block;
     width: 100%;

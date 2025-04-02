@@ -6,9 +6,15 @@
     border-radius: 0 !important;
     border: 1px solid var(--secondary-color);
 }
+@media (min-width: 992px) { /* Only for large screens */
+    .contact-container {
+        padding-left: 100px; /* Adds space on the left */
+    }
+}
+
 
 .contact__form input.form-control {
-    margin-bottom: 2em;
+    margin-bottom: 2rem;
     height: calc(2.5em + .75rem + 2px);
 }
 
@@ -28,6 +34,7 @@ button.btn.ac_btn:hover {
     animation: shift-rightwards 1s ease-in-out infinite;
     animation-delay: .3s;
 }
+
 
 @keyframes shift-rightwards {
     0% {

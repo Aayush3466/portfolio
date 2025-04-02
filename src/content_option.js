@@ -1,17 +1,17 @@
-const logotext = "JOHN";
+const logotext = "AAYUSH";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Aayush Adhikari",
+    description: "I’m Aayush Adhikari, Aspiring PhD in Machine Learning & AI Research, passionate about innovative problem-solving. Exploring advanced algorithms to drive impactful research.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Aayush Adhikari",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I code.",
+        second: "I turn data into insights.",
+        third: "I explore algorithms.",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "Aspiring PhD in Machine Learning & AI Research, passionate about innovative problem-solving. Exploring advanced algorithms to drive impactful research.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
@@ -136,21 +136,21 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
+    YOUR_EMAIL: "ayushadhikari3466@gmail.com",
+    YOUR_FONE: "+977-9841205862",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_1o7t5bo",
+    YOUR_TEMPLATE_ID: "template_5np0i7h",
+    YOUR_USER_ID: "___JdSkoqsA_VMTIo",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/Aayush3466",
+    google: "https://scholar.google.com/citations?user=AMhOZS8AAAAJ&hl=en",
+    linkedin: "https://www.linkedin.com/in/aayush-adhikari-a78040237/",
+    twitter: "https://x.com/AayushAdkk7",
 };
 export {
     meta,
