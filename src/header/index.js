@@ -10,8 +10,12 @@ const Headermain = () => {
 
   const handleToggle = () => {
     setActive(!isActive);
-    document.body.classList.toggle("ovhidden");
-  };
+    if (!isActive) {
+        document.body.classList.add("ovhidden");
+    } else {
+        document.body.classList.remove("ovhidden");
+    }
+};
 
   return (
     <>
